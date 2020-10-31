@@ -11,7 +11,7 @@
         </record>
 
         <record id="account_chart_template_pymes" model="account.chart.template">
-            <field name="name">PGCE PYMEs 2008!</field>
+            <field name="name">PGCE PYMEs 2008</field>
             <field name="complete_tax_set" eval="True"/>
             <field name="currency_id" ref="base.EUR"/>
             <field name="cash_account_code_prefix">570</field>
