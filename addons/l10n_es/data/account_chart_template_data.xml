@@ -78,5 +78,6 @@
             <field name="transfer_account_code_prefix">572999</field>
             <field name="parent_id" ref="account_chart_template_common_canary"/>
         </record>
+        
     </data>
 </odoo>
