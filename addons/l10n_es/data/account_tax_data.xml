@@ -1596,6 +1596,7 @@
         <field name="amount" eval="6.5"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_6_5"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_r_7" model="account.tax.template">
         <field name="sequence" eval="0"/>
@@ -1630,6 +1631,7 @@
         <field name="amount" eval="13.5"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
         <record id="account_tax_template_igic_r_15" model="account.tax.template">
         <field name="description">S_IGIC_R15</field>
@@ -1728,6 +1730,7 @@
         <field name="amount" eval="6.5"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_6_5"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_s_ISP6_5_2" model="account.tax.template">
         <field name="description">S_IGIC_ISP6_5_2</field>
@@ -1739,6 +1742,7 @@
         <field name="amount" eval="-6.5"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_6_5"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_s_ISP6_5" model="account.tax.template">
         <field name="description">S_IGIC_ISP6_5</field>
@@ -1749,6 +1753,7 @@
         <field name="amount_type">group</field>
         <field name="children_tax_ids" eval="[(6, 0, [ref('account_tax_template_igic_s_ISP6_5_1'), ref('account_tax_template_igic_s_ISP6_5_2')])]"/>
         <field name="tax_group_id" ref="tax_group_igic_6_5"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_s_ISP7_1" model="account.tax.template">
         <field name="description">S_IGIC_ISP7_1</field>
@@ -1824,6 +1829,7 @@
         <field name="amount" eval="13.5"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_s_ISP135_2" model="account.tax.template">
         <field name="description">S_IGIC_ISP135_2</field>
@@ -1835,6 +1841,7 @@
         <field name="amount" eval="-13.5"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_s_ISP135" model="account.tax.template">
         <field name="description">S_IGIC_ISP135</field>
@@ -1845,6 +1852,7 @@
         <field name="amount_type">group</field>
         <field name="children_tax_ids" eval="[(6, 0, [ref('account_tax_template_igic_s_ISP135_1'), ref('account_tax_template_igic_s_ISP135_2')])]"/>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_s_ISP15_1" model="account.tax.template">
         <field name="description">S_IGIC_ISP15_1</field>
@@ -1989,6 +1997,7 @@
         <field eval="6.5" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_65"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_sop_7" model="account.tax.template">
         <field name="sequence" eval="0"/>
@@ -2023,6 +2032,7 @@
         <field eval="13.50" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
 	<record id="account_tax_template_igic_sop_15" model="account.tax.template">
         <field name="description">P_IGIC_BC15</field>
@@ -2080,6 +2090,7 @@
         <field eval="6.5" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_65"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_sop_7_inv" model="account.tax.template">
         <field name="description">P_IGIC_BI7</field>
@@ -2113,6 +2124,7 @@
         <field eval="13.5" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
 	<record id="account_tax_template_igic_sop_15_inv" model="account.tax.template">
         <field name="description">P_IGIC_BI15</field>
@@ -2170,6 +2182,7 @@
         <field eval="6.5" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_65"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_sop_i_7" model="account.tax.template">
         <field name="description">P_IGIC_IBC7</field>
@@ -2203,6 +2216,7 @@
         <field eval="13.50" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
 	<record id="account_tax_template_igic_sop_i_15" model="account.tax.template">
         <field name="description">P_IGIC_IBC15</field>
@@ -2260,6 +2274,7 @@
         <field eval="6.5" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_65"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_sop_i_7_inv" model="account.tax.template">
         <field name="description">P_IGIC_IBI7</field>
@@ -2293,6 +2308,7 @@
         <field eval="13.5" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
 	<record id="account_tax_template_igic_sop_i_15_inv" model="account.tax.template">
         <field name="description">P_IGIC_IBI15</field>
@@ -2393,6 +2409,7 @@
         <field eval="6.5" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_65"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_ISP6_5_2" model="account.tax.template">
         <field name="description">P_IGIC_ISP65_2</field>
@@ -2404,6 +2421,7 @@
         <field eval="-6.5" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_65"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_ISP65" model="account.tax.template">
         <field name="description">P_IGIC_ISP65</field>
@@ -2414,6 +2432,7 @@
         <field name="amount_type">group</field>
         <field name="children_tax_ids" eval="[(6, 0, [ref('account_tax_template_igic_ISP6_5_1'), ref('account_tax_template_igic_ISP6_5_2')])]"/>
         <field name="tax_group_id" ref="tax_group_igic_6_5"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_ISP7_1" model="account.tax.template">
         <field name="description">P_IGIC_ISP7_1</field>
@@ -2489,6 +2508,7 @@
         <field eval="13.5" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_ISP135_2" model="account.tax.template">
         <field name="description">P_IGIC_ISP135_2</field>
@@ -2500,6 +2520,7 @@
         <field eval="-13.5" name="amount"/>
         <field name="amount_type">percent</field>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_ISP135" model="account.tax.template">
         <field name="description">P_IGIC_ISP135</field>
@@ -2510,6 +2531,7 @@
         <field name="amount_type">group</field>
         <field name="children_tax_ids" eval="[(6, 0, [ref('account_tax_template_igic_ISP135_1'), ref('account_tax_template_igic_ISP135_2')])]"/>
         <field name="tax_group_id" ref="tax_group_igic_135"/>
+        <field name="active">False</field>
     </record>
     <record id="account_tax_template_igic_ISP15_1" model="account.tax.template">
         <field name="description">P_IGIC_ISP15_1</field>
